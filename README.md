@@ -19,3 +19,7 @@ $ cd SDL2_Snake_Game && mkdir build && cd build
 $ cmake .. && make
 $ ./snake
 ```
+
+## License
+
+MIT
