@@ -1,5 +1,7 @@
 # Snake game based on SDL2
 
+![](images/snake_game.gif)
+
 A small snake video game based on SDL2.
 
 Just for learning SDL2.
