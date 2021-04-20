@@ -19,7 +19,7 @@ $ sudo pacman -S sdl2
 $ git clone https://github.com/STARRY-S/SDL2_Snake_Game.git
 $ cd SDL2_Snake_Game && mkdir build && cd build
 $ cmake .. && make
-$ ./snake
+$ ./snake -h
 ```
 
 ## License
