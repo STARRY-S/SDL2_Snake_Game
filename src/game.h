@@ -23,23 +23,20 @@ struct snake {
 	SDL_Renderer *renderer;
 	struct snake_point *body;
 	struct snake_point food;
-	int size;
 
-	float speed;
-	float move_count;
-
+	int size;		// body length
 	int screen_width;
 	int screen_height;
+	int fps;
         int grid_width;
         int grid_height;
+	int speed;
 
         bool alive;
 	bool isrunning;
 	bool isgrowing;
 	int direction;
 };
-
-
 
 struct snake *create_snake_game(void);
 int init_game(struct snake *game, int argc, char **argv);
