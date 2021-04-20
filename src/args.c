@@ -108,5 +108,6 @@ void print_help(char *name)
         printf("   -w [width]: custome screen width.\n");
         printf("\nHow to play:\n");
         printf("   Use arrow keys or 'w s a d' to move.\n");
+        printf("   Press 'q' or 'esc' to quit.\n");
         printf("   Press 'Enter' to restart when game over.\n");
 }
