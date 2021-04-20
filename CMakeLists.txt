@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.7)
 project(
     "snake"
     LANGUAGES C
-    VERSION 0.1.0
+    VERSION 0.1.1
 )
 
 set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/CMakeModules/")
